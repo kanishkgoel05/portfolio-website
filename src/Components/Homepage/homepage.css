@@ -1,0 +1,49 @@
+.port-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.port-homepage{
+    background: rgb(188, 215, 241);
+    height: 200px;
+    width: 200px;
+    border: 1px solid #123;
+    outline-style: inset;
+    outline-offset: -6px;
+    outline-width: 2px;
+}
+
+.banner {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bannerCard {
+    flex: 0 0 90%;
+    text-align: center;
+    padding: 10px 0;
+    outline: 1px solid #191919;
+    outline-offset: -10px;
+    background: rgba(255, 255, 255, 0.5);
+  }
+  
+  .bannerCard h1 {
+    font-size: 40px;
+    color: #8fcbfd;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+  
+  .bannerCard span {
+    color: #03243e;
+  }
+  
+  .bannerCard h3 {
+    text-transform: capitalize;
+    letter-spacing: 10px;
+  }
+  
