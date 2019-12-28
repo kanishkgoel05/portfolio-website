@@ -1,0 +1,46 @@
+.summary-start {
+    height: 100vh;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.summary-heading {
+    font-family: 'Taviraj',serif;
+    font-size: 50px;
+
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    border-color: #889EB7;
+  }
+  .circle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    border: 1px dotted;
+    border-width: 0 0 0 1px;
+    width: 10px;
+    height: 60vh;
+  }
+  .line {
+    margin-top:60vh;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid;
+    position: relative;
+    border-color: #889EB7;
+  }
+  .summary-content {
+        background: #889EB7;
+  }
+  .summary-content>ul {
+      list-style: none;
+  }

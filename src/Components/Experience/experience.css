@@ -1,0 +1,30 @@
+.experience-start {
+    height: 100vh;
+    background: #9be8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.experience-head {
+    display: grid;
+    width:400px;
+    background: chartreuse;
+    justify-content: center;
+    padding-top:40px;
+    padding-bottom:40px;
+}
+.experience-head-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding:20px;
+    cursor: pointer;
+}
+.experience-head-con:hover {
+    background: chocolate;
+}
+.experience-content {
+    width: 600px;
+}

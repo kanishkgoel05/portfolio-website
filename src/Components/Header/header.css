@@ -1,17 +1,25 @@
-.port-header{
-    display: flex;
-    background: rgba(18, 108, 177, 0.383);
-    height: 60px;
-    align-items: center;/* just in case*/
-    justify-content: space-between;
+.header-head{
+    background: #d4ecf6;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
-.port-header div:nth-child(1){
-    margin-left:20px;
-    font-size:30px;
+.header-name {
+    border: #123 1px solid;
+    padding:10px;
+    font-size: 25px;
+    text-align: center;
     font-weight: bolder;
 }
-
-.port-header div:nth-child(2){
-    text-align: center;
-    flex: 1 1 0px;
+.header-link ul{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    margin-left:200px;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
 }
