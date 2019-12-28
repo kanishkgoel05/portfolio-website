@@ -1,46 +1,51 @@
 .summary-start {
-    height: 100vh;
-    background: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg,#557697,white,rgb(67, 86, 105));
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .summary-heading {
-    font-family: 'Taviraj',serif;
-    font-size: 50px;
-
+  font-family: 'Taviraj',serif;
+  font-size: 50px;
+  width:30vw;
+  text-align: center;
 }
 .circle {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 2px solid;
-    position: relative;
-    border-color: #889EB7;
-  }
-  .circle:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    border: 1px dotted;
-    border-width: 0 0 0 1px;
-    width: 10px;
-    height: 60vh;
-  }
-  .line {
-    margin-top:60vh;
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    border: 2px solid;
-    position: relative;
-    border-color: #889EB7;
-  }
-  .summary-content {
-        background: #889EB7;
-  }
-  .summary-content>ul {
-      list-style: none;
-  }
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+  position: relative;
+  border-color: #889EB7;
+}
+.circle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border: 1px dotted;
+  border-width: 0 0 0 1px;
+  width: 10px;
+  height: 60vh;
+}
+.line {
+  margin-top:59.7vh;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid;
+  position: relative;
+  border-color: #889EB7;
+}
+.summary-content {
+  width:50vw;  
+}
+.summary-content>ul {
+    list-style: none;
+}
+.summary-content ul li {
+  padding:10px;
+  font-size:18px;
+}

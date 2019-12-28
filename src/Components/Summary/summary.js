@@ -7,14 +7,14 @@ const Summary = () => {
             <div className="summary-heading">
                 Overview
             </div>
-            <div>
+            <div className="middle-line">
                 <div className="circle"></div>
                 <div className="line"></div>
             </div>
             <div className="summary-content">
                 <ul>
-                    <li>Hi, I'm a L2 Support Engineer at OYO.</li>
-                    <li>Web Developer and aspiring Data Scientist</li>
+                    <li>Web Developer and aspiring Data Scientist.</li>
+                    <li>Currently working as a L2 Support Engineer at OYO.</li>
                     <li>Keen to learn new things to enhance myself and 
                         bring a fruitful results that will benefits the organisation.
                     </li>

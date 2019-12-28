@@ -6,7 +6,10 @@ import Experience from './Components/Experience/experience';
 import Education from './Components/Education/education';
 import Skills from './Components/Skills/skills';
 import ContactMe from './Components/ContactMe/contactMe';
-
+import { library } from '@fortawesome/fontawesome-svg-core'
+import {faFacebookSquare,faLinkedinIn,faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faEnvelope,faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
+library.add(faFacebookSquare,faLinkedinIn,faInstagram,faEnvelope,faPhoneAlt);
 function App() {
   return (
     <div className="App">

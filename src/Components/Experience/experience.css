@@ -7,7 +7,7 @@
 }
 .experience-head {
     display: grid;
-    width:400px;
+    width:30vw;
     background: chartreuse;
     justify-content: center;
     padding-top:40px;
@@ -26,5 +26,5 @@
     background: chocolate;
 }
 .experience-content {
-    width: 600px;
+    width: 50vw;
 }
