@@ -1,13 +1,17 @@
 import React from 'react';
+import Tools from './tool';
+import Languages from './languages';
+import './technicalSkills.css';
 
 const TechnicalSkills = () => {
     return (
-        <div>
+        <div className="techincal-skills">
             <div>
-                Techincal Skills
+                Techincal (IT) Skills
             </div>
-            <div>
-                
+            <div className="skill-tool">
+                <Tools/>
+                <Languages/>
             </div>
         </div>
     )

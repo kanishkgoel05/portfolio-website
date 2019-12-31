@@ -1,11 +1,13 @@
 import React from 'react';
 import './summary.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook ,faMusic, faSmile} from '@fortawesome/free-solid-svg-icons';
 
 const Summary = () => {
     return (
         <div className="summary-start">
             <div className="summary-heading">
-                Overview
+                Moulding my path
             </div>
             <div className="middle-line">
                 <div className="circle"></div>
@@ -13,16 +15,19 @@ const Summary = () => {
             </div>
             <div className="summary-content">
                 <ul>
-                    <li>Web Developer and aspiring Data Scientist.</li>
-                    <li>Currently working as a L2 Support Engineer at OYO.</li>
-                    <li>Keen to learn new things to enhance myself and 
-                        bring a fruitful results that will benefits the organisation.
-                    </li>
+                    <li>Web Developer and aspiring Data Scientist</li>
+                    <li>Working at OYO Hotels and Homes as L2 Support Engineer</li>
                     <li>
-                        Hobbies
+                        Hobbies :
                         <ul>
-                            <li>Reading Books</li>
-                            <li>Listening Music</li>
+                            <li className="hobby">
+                                <div><FontAwesomeIcon icon={faBook}/></div> 
+                                <div>Reading Books</div>
+                            </li>
+                            <li className="hobby">
+                                <div><FontAwesomeIcon icon={faMusic}/></div>
+                                <div>Listening Music</div>
+                            </li>
                         </ul>
                     </li>
                 </ul>

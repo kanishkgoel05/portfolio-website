@@ -1,6 +1,6 @@
-import React,{useState} from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faFacebookSquare,faLinkedinIn,faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {faFacebookSquare,faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './contactme.css';
 import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 

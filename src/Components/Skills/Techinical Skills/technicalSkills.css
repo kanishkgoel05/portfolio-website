@@ -1,0 +1,47 @@
+.techincal-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #123;
+    padding:10px;
+}
+.skill-tool {
+    display: flex;
+    width: 570px;
+    align-items: center;
+    justify-content: space-around;
+}
+.tech-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    padding:10px;
+    width:250px;
+    border:4px solid #123;    
+    overflow:hidden;
+    border-radius: 50px;
+    z-index: 2;
+    background: linear-gradient(rgb(141, 183, 224),rgba(211, 231, 251, 0.609));
+}
+.tech-head{
+    background:  rgb(73, 95, 116);
+    margin-top: -10px;
+    width:110%;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+.tech-list ul{
+    list-style-type: none;
+}
+.tech-list ul li {
+    padding: 5px;
+    font-size: 18x;
+}
+.lang-list ul {
+    width:100%;
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
