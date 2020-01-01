@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/kanishkgoel05/portfolio-website.git/static/css/main.a1878791.chunk.css",
+    "main.js": "/kanishkgoel05/portfolio-website.git/static/js/main.aace99e7.chunk.js",
+    "main.js.map": "/kanishkgoel05/portfolio-website.git/static/js/main.aace99e7.chunk.js.map",
+    "runtime-main.js": "/kanishkgoel05/portfolio-website.git/static/js/runtime-main.363b5544.js",
+    "runtime-main.js.map": "/kanishkgoel05/portfolio-website.git/static/js/runtime-main.363b5544.js.map",
+    "static/js/2.afd0b9bd.chunk.js": "/kanishkgoel05/portfolio-website.git/static/js/2.afd0b9bd.chunk.js",
+    "static/js/2.afd0b9bd.chunk.js.map": "/kanishkgoel05/portfolio-website.git/static/js/2.afd0b9bd.chunk.js.map",
+    "index.html": "/kanishkgoel05/portfolio-website.git/index.html",
+    "precache-manifest.69e35142c23999095d6b4f38a2d8d21f.js": "/kanishkgoel05/portfolio-website.git/precache-manifest.69e35142c23999095d6b4f38a2d8d21f.js",
+    "service-worker.js": "/kanishkgoel05/portfolio-website.git/service-worker.js",
+    "static/css/main.a1878791.chunk.css.map": "/kanishkgoel05/portfolio-website.git/static/css/main.a1878791.chunk.css.map",
+    "static/media/ABESEC_logo.png": "/kanishkgoel05/portfolio-website.git/static/media/ABESEC_logo.d106fbe9.png",
+    "static/media/SchoolLogo.png": "/kanishkgoel05/portfolio-website.git/static/media/SchoolLogo.f927e47d.png",
+    "static/media/education.css": "/kanishkgoel05/portfolio-website.git/static/media/books-indoors-pages-paper-45717.b818bbe3.jpg",
+    "static/media/skills.css": "/kanishkgoel05/portfolio-website.git/static/media/macbook-pro-on-brown-wooden-table-2312369.7279cedd.jpg",
+    "static/media/experience.css": "/kanishkgoel05/portfolio-website.git/static/media/marketing-office-working-business-33999.7c261167.jpg",
+    "static/media/summary.css": "/kanishkgoel05/portfolio-website.git/static/media/road-landscape-nature-sky-56832.b0050863.jpg",
+    "static/media/video.mp4": "/kanishkgoel05/portfolio-website.git/static/media/video.a61c3176.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.363b5544.js",
+    "static/js/2.afd0b9bd.chunk.js",
+    "static/css/main.a1878791.chunk.css",
+    "static/js/main.aace99e7.chunk.js"
+  ]
+}
