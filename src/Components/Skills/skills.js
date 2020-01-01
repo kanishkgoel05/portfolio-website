@@ -5,7 +5,7 @@ import './skills.css'
 
 const Skills = () => {
     return (
-        <div className="skills-start">
+        <div className="skills-start" id="skills">
             <TechnicalSkills/>
             <InterpersonalSkills/>
         </div>

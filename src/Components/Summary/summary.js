@@ -1,11 +1,11 @@
 import React from 'react';
 import './summary.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook ,faMusic, faSmile} from '@fortawesome/free-solid-svg-icons';
+import { faBook ,faMusic} from '@fortawesome/free-solid-svg-icons';
 
 const Summary = () => {
     return (
-        <div className="summary-start">
+        <div className="summary-start" id="overview">
             <div className="summary-heading">
                 Moulding my path
             </div>

@@ -23,7 +23,7 @@ const Experience = () => {
     }
 
     return (
-        <div className="experience-start">
+        <div className="experience-start" id="experience">
             <div className="experience">
                 Experience
             </div>

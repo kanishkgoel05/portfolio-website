@@ -7,7 +7,7 @@ import { faEnvelope, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 const ContactMe = () => {
 
     return(
-        <div className="contact-start">
+        <div className="contact-start" id = "contact">
             <div className="social-contact">
                 <div><a href="https://www.facebook.com/kanishk.goel.54" target="_blank"><FontAwesomeIcon icon={faFacebookSquare} color="white" className="icon1"/></a></div>
                 <div><a href="https://www.linkedin.com/in/kanishk-goel-8b9943161" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} color="white" className="icon"/></a></div>

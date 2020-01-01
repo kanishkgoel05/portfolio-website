@@ -6,7 +6,7 @@ import './education.css';
 
 const Education = () =>{
     return (
-        <div className="education-start">
+        <div className="education-start" id="education">
             <College/>
             <_12th/>
             <_10th/>
