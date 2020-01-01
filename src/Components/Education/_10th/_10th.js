@@ -7,7 +7,7 @@ const _10th = () => {
         <div className="container">
             <div className="education-card">
                 <div className="education-college">
-                    <div><img src={logo} className="college-logo"/></div>
+                    <div><img src={logo} className="college-logo" alt="10 class logo"/></div>
                     <div>D.A.V Public School</div>
                     <div>2012 - 2013</div>
                 </div>

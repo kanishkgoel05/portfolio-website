@@ -7,7 +7,7 @@ const college = () => {
         <div className="container">
             <div className="education-card">
                 <div className="education-college">
-                    <div ><img src={logo} className="college-logo"/></div>
+                    <div ><img src={logo} className="college-logo" alt="college logo"/></div>
                     <div>ABES Engineering College</div>
                     <div>2015 - 2019</div>
                 </div>

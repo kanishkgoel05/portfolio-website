@@ -7,7 +7,7 @@ const _12th = () => {
         <div className="container">
             <div className="education-card">
                 <div className="education-college">
-                    <div><img src={logo} className="college-logo"/></div>
+                    <div><img src={logo} className="college-logo" alt="college logo"/></div>
                     <div>D.A.V. Public School</div>
                     <div>2014 - 2015</div>
                 </div>
