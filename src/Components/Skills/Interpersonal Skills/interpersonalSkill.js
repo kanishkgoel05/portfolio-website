@@ -3,8 +3,8 @@ import './interpersonalSkills.css'
 
 const InterpersonalSkills = () => {
     return (
-        <div>
-             <div>
+        <div className="personal-skill">
+            <div className="personal-head">
             Inter-Personal Skills
             </div>
             <div className="tech-skills">

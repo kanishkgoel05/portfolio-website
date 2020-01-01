@@ -1,8 +1,9 @@
 import React from 'react';
+import './experienceData.css';
 
 const Experience1 = () => {
     return (
-        <div>
+        <div className="experience-data">
             <ul>
                 <li>Handle L1 Support Team
                     <ul>
@@ -24,9 +25,9 @@ const Experience1 = () => {
                     <ul>
                         <li>Deep dive the database to find out issue</li>
                         <li>Find out the issue via data which can cause the future problems and try to resolve it 
-                            at the same time with the help of operations and software team
+                            at the earliest with the help of operations and software team
                         </li>
-                        <li>Use SQL,mongodb queries and nodejs scripts to fetch the data required by Team
+                        <li>Use SQL,mongodb queries and nodejs scripts to fetch the data required
                             and apply some logic so that data can say something.
                         </li>
                     </ul>

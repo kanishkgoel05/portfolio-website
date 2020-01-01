@@ -6,7 +6,7 @@ import './technicalSkills.css';
 const TechnicalSkills = () => {
     return (
         <div className="techincal-skills">
-            <div>
+            <div className="personal-head">
                 Techincal (IT) Skills
             </div>
             <div className="skill-tool">

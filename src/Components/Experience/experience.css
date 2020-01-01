@@ -1,14 +1,26 @@
 .experience-start {
     height: 100vh;
-    background: #9be8ff;
+    background: url("../../Utils/marketing-office-working-business-33999.jpg") no-repeat fixed;
+    background-size: 100vw 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+.experience {
+    font-size:30px;
+}
+.experience-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .experience-head {
     display: grid;
     width:30vw;
-    background: chartreuse;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(255, 124, 124));
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     justify-content: center;
     padding-top:40px;
     padding-bottom:40px;
@@ -21,9 +33,14 @@
     margin: 20px;
     padding:20px;
     cursor: pointer;
+    border-radius:50px;
+    font-size:16px;
+    font-weight: bold;
+    
 }
 .experience-head-con:hover {
-    background: chocolate;
+    background: rgba(116, 93, 93, 0.486);
+    border-bottom:3px solid rgb(37, 6, 6);
 }
 .experience-content {
     width: 50vw;

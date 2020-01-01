@@ -24,26 +24,31 @@ const Experience = () => {
 
     return (
         <div className="experience-start">
-            <div className="experience-head">
-                <div onClick={() => showContent("exp1")} className="experience-head-con">
-                    <div>L2 Support Enginner (OYO)</div>
-                    <div>July 2019 - Present</div>
-                </div>
-                <div onClick={() => showContent("exp2")} className="experience-head-con">
-                    <div>L2 Support Enginner Intern (OYO)</div>
-                    <div>January 2019 - July 2019</div>
-                </div>
+            <div className="experience">
+                Experience
             </div>
-            <div>
-                <div className="circle"></div>
-                <div className="line"></div>
-            </div>
-            <div className="experience-content">
-                    {noexp && <div>
-                        Click on experience to see the details
-                        </div>}
-                    {exp1 && <Experience1/>}
-                    {exp2 && <Experience2/>}
+            <div className="experience-type">
+                <div className="experience-head">
+                    <div onClick={() => showContent("exp1")} className="experience-head-con">
+                        <div>L2 Support Enginner (OYO)</div>
+                        <div>July 2019 - Present</div>
+                    </div>
+                    <div onClick={() => showContent("exp2")} className="experience-head-con">
+                        <div>L2 Support Enginner Intern (OYO)</div>
+                        <div>January 2019 - July 2019</div>
+                    </div>
+                </div>
+                <div>
+                    <div className="circle"></div>
+                    <div className="line"></div>
+                </div>
+                <div className="experience-content">
+                        {noexp && <div>
+                            Click on experience to see the details
+                            </div>}
+                        {exp1 && <Experience1/>}
+                        {exp2 && <Experience2/>}
+                </div>
             </div>
         </div>
     )

@@ -1,8 +1,9 @@
 import React from 'react';
+import './experienceData.css';
 
 const Experience2 = () => {
     return (
-        <div>
+        <div className="experience-data">
             <ul>
                 <li>Created Tech Support Website
                     <ul>

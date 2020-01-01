@@ -1,0 +1,10 @@
+.experience-data {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgb(255, 124, 124));
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.experience-data>ul {
+    list-style-type: none;
+} 
